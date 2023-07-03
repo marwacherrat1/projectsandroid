@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images__1_"
+    android:backgroundTintMode="add"
+    android:hapticFeedbackEnabled="false"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="392dp"
+        android:animateLayoutChanges="true"
+        android:backgroundTint="#C296CA"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="34dp"
+        tools:layout_editor_absoluteY="234dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F4EFEF"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#821495"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="127dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="25px"
+                    android:background="#821495"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Contact1"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="72dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C2BFC3"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="127dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="40px"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Contact2"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#821495"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="127dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="40px"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Contact3"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#C2BFC3"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="127dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="20px"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Contact4"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#821495"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="127dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="40px"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Contact5"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#CDCACD"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="127dp"
+                    android:layout_height="57dp"
+                    android:layout_marginTop="20px"
+                    android:fontFamily="sans-serif-black"
+                    android:text="Contact6"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="119dp"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="20px"
+                    android:background="#821495"
+                    android:fontFamily="sans-serif"
+                    android:text="Contact7"
+                    android:textAlignment="center"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_more" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_menu_send" />
+
+                    <ImageButton
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10px"
+                        android:layout_weight="1"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="#B47BBD"
+        app:srcCompat="@android:drawable/ic_menu_add"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="332dp"
+        tools:layout_editor_absoluteY="663dp" />
+
+    <SearchView
+
+        android:id="@+id/searchView"
+        android:layout_width="299dp"
+        android:layout_height="44dp"
+        android:background="@color/material_dynamic_neutral_variant95"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="125dp"
+
+        android:backgroundTint="#C296CA"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_menu_sort_by_size"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="125dp"
+        tools:ignore="MissingConstraints"
+        android:backgroundTint="#C296CA"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
